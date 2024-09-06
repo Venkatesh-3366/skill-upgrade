@@ -1,0 +1,122 @@
+       body {
+           @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sevillana&display=swap');
+       }
+       
+       .navbar {
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           background-color: orange;
+       }
+       
+       .navbar-left {
+           padding-left: 20px;
+           padding-top: 20px;
+       }
+       
+       .navbar-right {
+           padding-right: 30px;
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+       }
+       
+       .a-element {
+           padding: 10px;
+           margin: 10px;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: 20px;
+           font-weight: bold;
+       }
+       
+       .home {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-between;
+           height: 85vh;
+           border: 5px solid rgba(49, 12, 234, 0.721);
+           background-color: #0befab93;
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           font-weight: bold;
+       }
+       
+       .home-left {
+           width: 50vw;
+           padding: 50px;
+       }
+       
+       .home-right {
+           width: 50vw;
+       }
+       
+       .mycertificants {
+           text-align: center;
+       }
+       
+       .my-h1 {
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           color: #ee5102fb;
+       }
+       
+       .mycertificants-sub {
+           display: flex;
+           flex-direction: row;
+           padding-left: 10pxpx;
+       }
+       
+       .mycertificants-card {
+           border: #ee5102fb solid;
+           margin: 20px;
+           width: 400px;
+       }
+       
+       .p-1 {
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-weight: bold;
+           padding: 20px;
+       }
+       
+       .p-2 {
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-weight: bold;
+           padding: 20px;
+       }
+       
+       .p-3 {
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-weight: bold;
+           padding: 20px;
+       }
+       
+       .p-4 {
+           font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           font-weight: bold;
+           padding: 20px;
+       }
+       
+       .project {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           border: 3PX rgb(238, 79, 16) solid;
+           color: green;
+       }
+       
+       .pro-1 {
+           color: red;
+       }
+       
+       .contact {
+           text-align: center;
+       }
+       
+       .contact-info {
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: bold;
+           font size: 20px;
+       }
+       
+       .social-icon {
+           padding: 20px;
+       }
